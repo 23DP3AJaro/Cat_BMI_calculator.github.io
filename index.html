@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="lv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaķu ķermeņa masas indekss</title>
+    <link href="src/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div id="HeaderLine">
+        <div id="LogoAndNav">
+          <div id="logo"><img src="src/img/Logo.png" /></div>
+          <div id="NavButtons">
+            <a href="index.html">Sakums</a>
+            <a href="about.html">Par kalkulatoru</a>
+            <a href="#">Avoti</a>
+            <a href="#">Galerija</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div id="calculator">
+            <div id="CalculatorHeader">
+                <h1>Kalkulators</h1>
+            </div>
+          <div id="inputs">
+            <input type="number" placeholder="Masa (kg)" id="InputMass"/>
+            <input type="number" placeholder="Ķermeņa garums (m)" id="InputLength"/>
+          </div>
+          <div id="GoButton">
+            <button>Go!</button>
+          </div>
+          <div id="result">
+            <span>Rezultāts: </span>
+            <span id="ResultField"></span>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div id="CatFact">
+          <div id="CatFactHeader">
+            <h1>Fakts par kaķiem</h1>
+          </div>
+          <div id="CatFactFetch">
+            <p id="CatFactPlaceholder"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <span>&copy; Artjoms Jarockis</span>
+    </footer>
+    <script src="src/script.js"></script>
+  </body>
+</html>
